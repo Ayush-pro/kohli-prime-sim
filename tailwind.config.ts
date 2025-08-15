@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -51,6 +52,12 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				cricket: {
+					green: 'hsl(var(--cricket-green))',
+					orange: 'hsl(var(--cricket-orange))',
+					blue: 'hsl(var(--cricket-blue))',
+					gold: 'hsl(var(--stats-gold))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
